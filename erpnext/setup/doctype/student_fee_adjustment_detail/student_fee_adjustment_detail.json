@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-03-01 17:27:25.582201",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "fee_category",
+  "amount",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "fee_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Fee Category",
+   "oldfieldname": "designation_name",
+   "oldfieldtype": "Data",
+   "options": "Fee Category",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "icon": "fa fa-bookmark",
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-25 14:09:31.616284",
+ "modified_by": "Administrator",
+ "module": "Setup",
+ "name": "Student Fee Adjustment Detail",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "translated_doctype": 1
+}

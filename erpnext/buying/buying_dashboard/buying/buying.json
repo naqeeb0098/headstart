@@ -15,7 +15,7 @@
  ],
  "charts": [
   {
-   "chart": "Purchase Order Trends",
+   "chart": "Puchase Invoice",
    "width": "Full"
   },
   {
@@ -29,6 +29,14 @@
   {
    "chart": "Top Suppliers",
    "width": "Full"
+  },
+  {
+   "chart": "Buying1",
+   "width": "Half"
+  },
+  {
+   "chart": "Material Request Status",
+   "width": "Half"
   }
  ],
  "creation": "2020-07-20 21:01:02.541065",
@@ -36,9 +44,9 @@
  "docstatus": 0,
  "doctype": "Dashboard",
  "idx": 0,
- "is_default": 1,
+ "is_default": 0,
  "is_standard": 1,
- "modified": "2020-07-22 12:48:38.112744",
+ "modified": "2024-03-12 13:10:25.772537",
  "modified_by": "Administrator",
  "module": "Buying",
  "name": "Buying",

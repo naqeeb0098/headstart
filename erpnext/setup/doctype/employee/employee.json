@@ -14,6 +14,7 @@
   "basic_information",
   "employee",
   "naming_series",
+  "salutation",
   "first_name",
   "middle_name",
   "last_name",
@@ -21,8 +22,11 @@
   "column_break_9",
   "gender",
   "date_of_birth",
-  "salutation",
+  "father_name",
+  "latest_qualification",
   "column_break1",
+  "religion",
+  "place_of_birth",
   "date_of_joining",
   "image",
   "status",
@@ -32,13 +36,13 @@
   "create_user_permission",
   "company_details_section",
   "company",
+  "branch",
   "department",
+  "designation",
   "employee_number",
   "column_break_25",
-  "designation",
   "reports_to",
   "column_break_18",
-  "branch",
   "employment_details",
   "scheduled_confirmation_date",
   "column_break_32",
@@ -733,7 +737,7 @@
   {
    "fieldname": "company_details_section",
    "fieldtype": "Section Break",
-   "label": "Company Details"
+   "label": "Basic Information"
   },
   {
    "fieldname": "column_break_18",
@@ -816,13 +820,34 @@
    "fieldname": "iban",
    "fieldtype": "Data",
    "label": "IBAN"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "latest_qualification",
+   "fieldtype": "Data",
+   "label": "Latest Qualification"
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Select",
+   "label": "Religion",
+   "options": "Muslim\nChristian"
   }
  ],
  "icon": "fa fa-user",
  "idx": 24,
  "image_field": "image",
  "links": [],
- "modified": "2023-03-30 15:57:05.174592",
+ "modified": "2024-03-19 12:16:07.920869",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Employee",

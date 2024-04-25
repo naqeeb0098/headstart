@@ -1,0 +1,45 @@
+{
+ "chart_name": "Buying1",
+ "chart_type": "Report",
+ "creation": "2024-01-31 10:08:18.495875",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{\"company\":\"Headstart\",\"period\":\"Monthly\",\"fiscal_year\":\"2024\",\"period_based_on\":\"posting_date\",\"based_on\":\"Item\",\"group_by\":\"\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-01-31 10:13:55.313837",
+ "modified_by": "Administrator",
+ "module": "Buying",
+ "name": "Buying1",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Purchase Order Trends",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "item",
+ "y_axis": [
+  {
+   "color": "#ECAD4B",
+   "y_field": "jan_(qty)"
+  },
+  {
+   "color": "#EC864B",
+   "y_field": "jan_(amt)"
+  },
+  {
+   "color": "#ED6396",
+   "y_field": "total(qty)"
+  },
+  {
+   "color": "#29CD42",
+   "y_field": "total(amt)"
+  }
+ ]
+}
